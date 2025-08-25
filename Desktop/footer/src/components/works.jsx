@@ -5,7 +5,7 @@ const Works = () => {
   return (
     <section className="bg-black py-16 px-6 md:px-12">
       
-      <h2 className="lg:text-3xl text-2xl  font-bold text-center mb-12 text-white h-[10vh] w- lg:w-">
+      <h2 className="lg:text-3xl text-2xl  font-bold text-center mb-12 text-white h-[8vh] w- lg:w-">
         Explore Our Recent Works
       </h2>
 

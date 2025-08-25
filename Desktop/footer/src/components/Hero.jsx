@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Left */}
       <div className="md:w-[65%] space-y-[2vh]">
 
-        <p className="text-gray-500 uppercase text-sm font-semibold ">
+        <p className="text-gray-600 uppercase text-sm font-semibold ">
           WEB BLOCKS PRESENTS
         </p>
 
@@ -22,7 +22,7 @@ const Hero = () => {
           projects speak louder than words.
         </p>
 
-        <button className="bg-black text-white px-[2vw] py-[1vh] rounded-md text-[1.5vh] hover:bg-gray-800 ">
+        <button className="bg-black text-white px-[2.5vw] py-[1vh] rounded-md text-[1.7vh] hover:bg-gray-700 hover:cursor-pointer">
           Get in Touch
         </button>
       </div>
