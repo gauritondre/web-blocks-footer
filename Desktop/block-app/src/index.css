@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+/* #0d1d3c */
+.animated-gradient {
+  background: linear-gradient(-45deg, #cfcfd8, #353a4c, #0e1e3e , #ffffff);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+}
+
+@keyframes growArrow {
+  0% {
+    transform: translateY(0) scaleY(0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(5px) scaleY(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(10px) scaleY(1);
+    opacity: 1;
+  }
+}
+
+.animate-growArrow {
+  animation: growArrow 1.5s ease-in-out infinite;
+}
+
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.scrollbar-hide::-webkit-scrollbar-thumb {
+  display: none;
+}
+.scrollbar-hide::-webkit-scrollbar-track {
+  display: none;
+}
